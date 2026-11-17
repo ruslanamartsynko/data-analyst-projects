@@ -1,0 +1,9 @@
+SYNTHETIC EXPERIMENT — exploratory training example
+A users=6000, B users=6000; SRM p-value=1
+Conversion A=10.183%, B=11.700%
+Absolute uplift (B-A)=1.517% (1.517 percentage points)
+Relative uplift=14.89%
+Two-sided pooled z-test p-value=0.00779
+Approx. 95% CI for absolute difference=(0.400%, 2.633%)
+Revenue/user B-A=0.993 synthetic units; exploratory Welch p=0.00744
+Caveats: synthetic data, fixed-horizon analysis, no power analysis or multiple test adjustment; association under randomization, not real-world impact.
