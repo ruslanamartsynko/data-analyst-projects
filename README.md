@@ -1,19 +1,29 @@
-# Data Analyst 
+# Data Analytics Portfolio | Ruslana Martsynko
 
-Це **демонстраційні навчальні проєкти**, а не комерційний досвід. Усі дані синтетичні та згенеровані локально. Імена клієнтів та персональні дані відсутні.
+Портфоліо проєктів з аналітики даних, статистичного аналізу та машинного навчання.
 
 ## Проєкти
-1. `01_customer_segmentation` — RFM-аналіз, K-Means, опис профілів сегментів, SQL-аналітика.
-2. `02_ab_testing` — експеримент з конверсією, SRM-check, довірчий інтервал, p-value, guardrail по виручці, SQL-запити.
 
-## Швидкий запуск
+### 01. Customer Segmentation
+**Технології:** Python, SQL, K-Means, RFM Analysis
 
-```bash
-python -m pip install -r requirements.txt
-python 01_customer_segmentation/generate_data.py
-python 01_customer_segmentation/analyze.py
-python 02_ab_testing/generate_data.py
-python 02_ab_testing/analyze.py
-```
+- Сегментація клієнтів за поведінковими характеристиками.
+- Кластеризація методом K-Means.
+- Аналіз RFM-показників.
+- Інтерпретація сегментів для бізнес-рішень.
 
-Готові зразки CSV вже вкладені до ZIP. Скрипти генерують їх повторно з фіксованим `seed`. Всі назви й суми умовні; гроші — умовні одиниці.
+### 02. A/B Testing
+**Технології:** Python, SQL, Statistical Analysis
+
+- Аналіз результатів A/B-експерименту.
+- Перевірка Sample Ratio Mismatch (SRM).
+- Розрахунок довірчих інтервалів та p-value.
+- Аналіз конверсії та revenue guardrails.
+
+## Про дані
+
+Для демонстрації аналітичних методів використовуються синтетичні набори даних.
+
+## Напрям розвитку
+
+Data Analytics • Statistics • Machine Learning
